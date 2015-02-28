@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="6g8-gc-DzS">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6g8-gc-DzS" id="Y3B-vw-3Nh">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w1s-PI-hyd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w1s-PI-hyd" firstAttribute="top" secondItem="Y3B-vw-3Nh" secondAttribute="top" id="8Bo-Oj-K4J"/>
+                    <constraint firstItem="w1s-PI-hyd" firstAttribute="leading" secondItem="Y3B-vw-3Nh" secondAttribute="leadingMargin" constant="-8" id="8P3-ht-xTF"/>
+                    <constraint firstAttribute="trailing" secondItem="w1s-PI-hyd" secondAttribute="trailing" id="EAx-VP-wsP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="w1s-PI-hyd" secondAttribute="bottom" constant="-8.5" id="lHs-W3-xYd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="353" y="201"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631884F21A9F294B00883418 /* BrimoCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631884F11A9F294B00883418 /* BrimoCardCell.xib */; };
+		631884F71A9F702700883418 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 631884F31A9F702700883418 /* category.png */; };
+		631884F81A9F702700883418 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 631884F41A9F702700883418 /* main.png */; };
+		631884F91A9F702700883418 /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 631884F51A9F702700883418 /* mark.png */; };
+		631884FA1A9F702700883418 /* profilephoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 631884F61A9F702700883418 /* profilephoto.png */; };
 		63243AFB1A9C666D00C9912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243AFA1A9C666D00C9912C /* AppDelegate.swift */; };
 		63243AFD1A9C666D00C9912C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243AFC1A9C666D00C9912C /* ViewController.swift */; };
 		63243B001A9C666D00C9912C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63243AFE1A9C666D00C9912C /* Main.storyboard */; };
 		63243B021A9C666D00C9912C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63243B011A9C666D00C9912C /* Images.xcassets */; };
 		63243B051A9C666D00C9912C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63243B031A9C666D00C9912C /* LaunchScreen.xib */; };
 		63243B111A9C666D00C9912C /* brimoTableViewForGradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243B101A9C666D00C9912C /* brimoTableViewForGradientTests.swift */; };
+		63243B1D1A9C6B5D00C9912C /* BrimoCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63243B1C1A9C6B5D00C9912C /* BrimoCustomTableViewCell.xib */; };
+		63243B211A9C6C7200C9912C /* BrimoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243B201A9C6C7200C9912C /* BrimoTableViewCell.swift */; };
+		63243B231A9C6EAE00C9912C /* BrimoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243B221A9C6EAE00C9912C /* BrimoTableViewController.swift */; };
+		63243B251A9C901E00C9912C /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63243B241A9C901E00C9912C /* testViewController.swift */; };
+		63A238E91A9CB54D0058DAB6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A238E81A9CB54D0058DAB6 /* back.png */; };
+		63A238ED1A9CB8B20058DAB6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A238EA1A9CB8B20058DAB6 /* 4.png */; };
+		63A238EE1A9CB8B20058DAB6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A238EB1A9CB8B20058DAB6 /* 2.png */; };
+		63A238EF1A9CB8B20058DAB6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A238EC1A9CB8B20058DAB6 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631884F11A9F294B00883418 /* BrimoCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrimoCardCell.xib; sourceTree = "<group>"; };
+		631884F31A9F702700883418 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
+		631884F41A9F702700883418 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		631884F51A9F702700883418 /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		631884F61A9F702700883418 /* profilephoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilephoto.png; sourceTree = "<group>"; };
 		63243AF51A9C666D00C9912C /* brimoTableViewForGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brimoTableViewForGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63243AF91A9C666D00C9912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63243AFA1A9C666D00C9912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,14 @@
 		63243B0A1A9C666D00C9912C /* brimoTableViewForGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brimoTableViewForGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63243B0F1A9C666D00C9912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63243B101A9C666D00C9912C /* brimoTableViewForGradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brimoTableViewForGradientTests.swift; sourceTree = "<group>"; };
+		63243B1C1A9C6B5D00C9912C /* BrimoCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrimoCustomTableViewCell.xib; sourceTree = "<group>"; };
+		63243B201A9C6C7200C9912C /* BrimoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrimoTableViewCell.swift; sourceTree = "<group>"; };
+		63243B221A9C6EAE00C9912C /* BrimoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrimoTableViewController.swift; sourceTree = "<group>"; };
+		63243B241A9C901E00C9912C /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		63A238E81A9CB54D0058DAB6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		63A238EA1A9CB8B20058DAB6 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		63A238EB1A9CB8B20058DAB6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		63A238EC1A9CB8B20058DAB6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +85,20 @@
 		63243AEC1A9C666D00C9912C = {
 			isa = PBXGroup;
 			children = (
+				63243B201A9C6C7200C9912C /* BrimoTableViewCell.swift */,
+				63243B1C1A9C6B5D00C9912C /* BrimoCustomTableViewCell.xib */,
+				631884F11A9F294B00883418 /* BrimoCardCell.xib */,
 				63243AF71A9C666D00C9912C /* brimoTableViewForGradient */,
 				63243B0D1A9C666D00C9912C /* brimoTableViewForGradientTests */,
 				63243AF61A9C666D00C9912C /* Products */,
+				63A238E81A9CB54D0058DAB6 /* back.png */,
+				63A238EA1A9CB8B20058DAB6 /* 4.png */,
+				63A238EB1A9CB8B20058DAB6 /* 2.png */,
+				63A238EC1A9CB8B20058DAB6 /* 3.png */,
+				631884F31A9F702700883418 /* category.png */,
+				631884F41A9F702700883418 /* main.png */,
+				631884F51A9F702700883418 /* mark.png */,
+				631884F61A9F702700883418 /* profilephoto.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +117,8 @@
 				63243AFA1A9C666D00C9912C /* AppDelegate.swift */,
 				63243AFC1A9C666D00C9912C /* ViewController.swift */,
 				63243AFE1A9C666D00C9912C /* Main.storyboard */,
+				63243B241A9C901E00C9912C /* testViewController.swift */,
+				63243B221A9C6EAE00C9912C /* BrimoTableViewController.swift */,
 				63243B011A9C666D00C9912C /* Images.xcassets */,
 				63243B031A9C666D00C9912C /* LaunchScreen.xib */,
 				63243AF81A9C666D00C9912C /* Supporting Files */,
@@ -192,9 +231,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A238ED1A9CB8B20058DAB6 /* 4.png in Resources */,
+				63243B1D1A9C6B5D00C9912C /* BrimoCustomTableViewCell.xib in Resources */,
+				631884F91A9F702700883418 /* mark.png in Resources */,
+				63A238EE1A9CB8B20058DAB6 /* 2.png in Resources */,
+				631884F71A9F702700883418 /* category.png in Resources */,
+				63A238EF1A9CB8B20058DAB6 /* 3.png in Resources */,
+				63A238E91A9CB54D0058DAB6 /* back.png in Resources */,
 				63243B001A9C666D00C9912C /* Main.storyboard in Resources */,
 				63243B051A9C666D00C9912C /* LaunchScreen.xib in Resources */,
+				631884FA1A9F702700883418 /* profilephoto.png in Resources */,
 				63243B021A9C666D00C9912C /* Images.xcassets in Resources */,
+				631884F81A9F702700883418 /* main.png in Resources */,
+				631884F21A9F294B00883418 /* BrimoCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63243B211A9C6C7200C9912C /* BrimoTableViewCell.swift in Sources */,
+				63243B231A9C6EAE00C9912C /* BrimoTableViewController.swift in Sources */,
 				63243AFD1A9C666D00C9912C /* ViewController.swift in Sources */,
+				63243B251A9C901E00C9912C /* testViewController.swift in Sources */,
 				63243AFB1A9C666D00C9912C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +457,7 @@
 				63243B161A9C666D00C9912C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63243B171A9C666D00C9912C /* Build configuration list for PBXNativeTarget "brimoTableViewForGradientTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +466,7 @@
 				63243B191A9C666D00C9912C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
